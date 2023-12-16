@@ -4,4 +4,13 @@
     Layout = "~/Views/Shared/_DefaultLayout.cshtml";
 }
 
+@await Component.InvokeAsync("_DefaultFeatureComponentPartial")
+
+@await Component.InvokeAsync("_DefaultHomePageProductList")
+
+@await Component.InvokeAsync("_DefaultWhoWeAreComponetPartial")
+
+@await Component.InvokeAsync("_DefaultServicesComponentPartial")
+
+@await Component.InvokeAsync("_DefaultProductListExploreCitiesComponetsPartial")
 
